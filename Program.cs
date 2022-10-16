@@ -33,4 +33,19 @@ int GetRandomNumber(int minValue, int maxValue)
     return randomNumber;
 }
 
+int[] array = new int[3];
+int number = 153;
+
+for(int i = 0; i < array.Length ; i++)
+{
+    int lastValue = number % 10;
+    array[i] = lastValue;
+
+    number = number / 10;
+}
+
+
+
+
+
 
