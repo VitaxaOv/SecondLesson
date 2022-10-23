@@ -47,5 +47,19 @@ for(int i = 0; i < array.Length ; i++)
 
 
 
+bool a = true;
+
+bool b = false;
+
+if(a != true && b == true)
+{
+
+}
+
+
+
+
+
+
 
 
